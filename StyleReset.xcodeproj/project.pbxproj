@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC25E2C154DE82F000D8D5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC25E2B154DE82F000D8D5E /* UIKit.framework */; };
+		CEC25E2E154DE82F000D8D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC25E2D154DE82F000D8D5E /* Foundation.framework */; };
+		CEC25E30154DE82F000D8D5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC25E2F154DE82F000D8D5E /* CoreGraphics.framework */; };
+		CEC25E36154DE82F000D8D5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC25E34154DE82F000D8D5E /* InfoPlist.strings */; };
+		CEC25E38154DE82F000D8D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC25E37154DE82F000D8D5E /* main.m */; };
+		CEC25E3C154DE82F000D8D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC25E3B154DE82F000D8D5E /* AppDelegate.m */; };
+		CEC25E3F154DE82F000D8D5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC25E3E154DE82F000D8D5E /* MainViewController.m */; };
+		CEC25E45154DE830000D8D5E /* MainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC25E43154DE82F000D8D5E /* MainViewController_iPhone.xib */; };
+		CEC25E53154DE830000D8D5E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC25E52154DE830000D8D5E /* SenTestingKit.framework */; };
+		CEC25E54154DE830000D8D5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC25E2B154DE82F000D8D5E /* UIKit.framework */; };
+		CEC25E55154DE830000D8D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC25E2D154DE82F000D8D5E /* Foundation.framework */; };
+		CEC25E5D154DE830000D8D5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC25E5B154DE830000D8D5E /* InfoPlist.strings */; };
+		CEC25E60154DE830000D8D5E /* StyleResetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC25E5F154DE830000D8D5E /* StyleResetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC25E56154DE830000D8D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC25E1E154DE82E000D8D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC25E26154DE82F000D8D5E;
+			remoteInfo = StyleReset;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEC25E27154DE82F000D8D5E /* StyleReset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StyleReset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC25E2B154DE82F000D8D5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEC25E2D154DE82F000D8D5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC25E2F154DE82F000D8D5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC25E33154DE82F000D8D5E /* StyleReset-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StyleReset-Info.plist"; sourceTree = "<group>"; };
+		CEC25E35154DE82F000D8D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC25E37154DE82F000D8D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC25E39154DE82F000D8D5E /* StyleReset-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StyleReset-Prefix.pch"; sourceTree = "<group>"; };
+		CEC25E3A154DE82F000D8D5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC25E3B154DE82F000D8D5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC25E3D154DE82F000D8D5E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CEC25E3E154DE82F000D8D5E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CEC25E44154DE82F000D8D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController_iPhone.xib; sourceTree = "<group>"; };
+		CEC25E51154DE830000D8D5E /* StyleResetTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StyleResetTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC25E52154DE830000D8D5E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEC25E5A154DE830000D8D5E /* StyleResetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StyleResetTests-Info.plist"; sourceTree = "<group>"; };
+		CEC25E5C154DE830000D8D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC25E5E154DE830000D8D5E /* StyleResetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyleResetTests.h; sourceTree = "<group>"; };
+		CEC25E5F154DE830000D8D5E /* StyleResetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StyleResetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC25E24154DE82F000D8D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC25E2C154DE82F000D8D5E /* UIKit.framework in Frameworks */,
+				CEC25E2E154DE82F000D8D5E /* Foundation.framework in Frameworks */,
+				CEC25E30154DE82F000D8D5E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC25E4D154DE830000D8D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC25E53154DE830000D8D5E /* SenTestingKit.framework in Frameworks */,
+				CEC25E54154DE830000D8D5E /* UIKit.framework in Frameworks */,
+				CEC25E55154DE830000D8D5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC25E1C154DE82E000D8D5E = {
+			isa = PBXGroup;
+			children = (
+				CEC25E31154DE82F000D8D5E /* StyleReset */,
+				CEC25E58154DE830000D8D5E /* StyleResetTests */,
+				CEC25E2A154DE82F000D8D5E /* Frameworks */,
+				CEC25E28154DE82F000D8D5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC25E28154DE82F000D8D5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC25E27154DE82F000D8D5E /* StyleReset.app */,
+				CEC25E51154DE830000D8D5E /* StyleResetTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC25E2A154DE82F000D8D5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC25E2B154DE82F000D8D5E /* UIKit.framework */,
+				CEC25E2D154DE82F000D8D5E /* Foundation.framework */,
+				CEC25E2F154DE82F000D8D5E /* CoreGraphics.framework */,
+				CEC25E52154DE830000D8D5E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC25E31154DE82F000D8D5E /* StyleReset */ = {
+			isa = PBXGroup;
+			children = (
+				CEC25E3A154DE82F000D8D5E /* AppDelegate.h */,
+				CEC25E3B154DE82F000D8D5E /* AppDelegate.m */,
+				CEC25E3D154DE82F000D8D5E /* MainViewController.h */,
+				CEC25E3E154DE82F000D8D5E /* MainViewController.m */,
+				CEC25E43154DE82F000D8D5E /* MainViewController_iPhone.xib */,
+				CEC25E32154DE82F000D8D5E /* Supporting Files */,
+			);
+			path = StyleReset;
+			sourceTree = "<group>";
+		};
+		CEC25E32154DE82F000D8D5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC25E33154DE82F000D8D5E /* StyleReset-Info.plist */,
+				CEC25E34154DE82F000D8D5E /* InfoPlist.strings */,
+				CEC25E37154DE82F000D8D5E /* main.m */,
+				CEC25E39154DE82F000D8D5E /* StyleReset-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC25E58154DE830000D8D5E /* StyleResetTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC25E5E154DE830000D8D5E /* StyleResetTests.h */,
+				CEC25E5F154DE830000D8D5E /* StyleResetTests.m */,
+				CEC25E59154DE830000D8D5E /* Supporting Files */,
+			);
+			path = StyleResetTests;
+			sourceTree = "<group>";
+		};
+		CEC25E59154DE830000D8D5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC25E5A154DE830000D8D5E /* StyleResetTests-Info.plist */,
+				CEC25E5B154DE830000D8D5E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC25E26154DE82F000D8D5E /* StyleReset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC25E63154DE830000D8D5E /* Build configuration list for PBXNativeTarget "StyleReset" */;
+			buildPhases = (
+				CEC25E23154DE82F000D8D5E /* Sources */,
+				CEC25E24154DE82F000D8D5E /* Frameworks */,
+				CEC25E25154DE82F000D8D5E /* Resources */,
+				CEC25E73154DECCF000D8D5E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StyleReset;
+			productName = StyleReset;
+			productReference = CEC25E27154DE82F000D8D5E /* StyleReset.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC25E50154DE830000D8D5E /* StyleResetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC25E66154DE830000D8D5E /* Build configuration list for PBXNativeTarget "StyleResetTests" */;
+			buildPhases = (
+				CEC25E4C154DE830000D8D5E /* Sources */,
+				CEC25E4D154DE830000D8D5E /* Frameworks */,
+				CEC25E4E154DE830000D8D5E /* Resources */,
+				CEC25E4F154DE830000D8D5E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC25E57154DE830000D8D5E /* PBXTargetDependency */,
+			);
+			name = StyleResetTests;
+			productName = StyleResetTests;
+			productReference = CEC25E51154DE830000D8D5E /* StyleResetTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC25E1E154DE82E000D8D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEC25E21154DE82E000D8D5E /* Build configuration list for PBXProject "StyleReset" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC25E1C154DE82E000D8D5E;
+			productRefGroup = CEC25E28154DE82F000D8D5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC25E26154DE82F000D8D5E /* StyleReset */,
+				CEC25E50154DE830000D8D5E /* StyleResetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC25E25154DE82F000D8D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC25E36154DE82F000D8D5E /* InfoPlist.strings in Resources */,
+				CEC25E45154DE830000D8D5E /* MainViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC25E4E154DE830000D8D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC25E5D154DE830000D8D5E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEC25E4F154DE830000D8D5E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		CEC25E73154DECCF000D8D5E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Developer/iphoneentitlements401/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC25E23154DE82F000D8D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC25E38154DE82F000D8D5E /* main.m in Sources */,
+				CEC25E3C154DE82F000D8D5E /* AppDelegate.m in Sources */,
+				CEC25E3F154DE82F000D8D5E /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC25E4C154DE830000D8D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC25E60154DE830000D8D5E /* StyleResetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC25E57154DE830000D8D5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC25E26154DE82F000D8D5E /* StyleReset */;
+			targetProxy = CEC25E56154DE830000D8D5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC25E34154DE82F000D8D5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC25E35154DE82F000D8D5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC25E43154DE82F000D8D5E /* MainViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC25E44154DE82F000D8D5E /* en */,
+			);
+			name = MainViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CEC25E5B154DE830000D8D5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC25E5C154DE830000D8D5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC25E61154DE830000D8D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC25E62154DE830000D8D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC25E64154DE830000D8D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StyleReset/StyleReset-Prefix.pch";
+				INFOPLIST_FILE = "StyleReset/StyleReset-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEC25E65154DE830000D8D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StyleReset/StyleReset-Prefix.pch";
+				INFOPLIST_FILE = "StyleReset/StyleReset-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEC25E67154DE830000D8D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StyleReset.app/StyleReset";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StyleReset/StyleReset-Prefix.pch";
+				INFOPLIST_FILE = "StyleResetTests/StyleResetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEC25E68154DE830000D8D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StyleReset.app/StyleReset";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StyleReset/StyleReset-Prefix.pch";
+				INFOPLIST_FILE = "StyleResetTests/StyleResetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC25E21154DE82E000D8D5E /* Build configuration list for PBXProject "StyleReset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC25E61154DE830000D8D5E /* Debug */,
+				CEC25E62154DE830000D8D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC25E63154DE830000D8D5E /* Build configuration list for PBXNativeTarget "StyleReset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC25E64154DE830000D8D5E /* Debug */,
+				CEC25E65154DE830000D8D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC25E66154DE830000D8D5E /* Build configuration list for PBXNativeTarget "StyleResetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC25E67154DE830000D8D5E /* Debug */,
+				CEC25E68154DE830000D8D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC25E1E154DE82E000D8D5E /* Project object */;
+}
